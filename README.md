@@ -1,3 +1,5 @@
+Some customized important content at bottom
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
@@ -72,6 +74,10 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/t
 # todo-with-redux
 
 Commands used during intial setup:
+
 npx create-react-app .  
 npm i redux react-redux  
 npm i @reduxjs/toolkit
+
+So this uses redux with actions and reducers in seperate files.
+we can also use CreateSlice from @reduxjs/toolkit to create actions and reducers in one file.
